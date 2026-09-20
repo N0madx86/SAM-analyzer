@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SAM - Sentiment Analysis</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>SAM</h1>
+        <p>Sentiment Analysis Model</p>
+
+        <textarea
+            id="review"
+            placeholder="Enter a review..."
+        ></textarea>
+
+        <button id="analyzeBtn">
+            Analyze Sentiment
+        </button>
+
+        <div id="loading" hidden>
+            Analyzing...
+        </div>
+
+        <section id="result" hidden>
+
+            <h2 id="overallSentiment"></h2>
+
+            <p>
+                Positive:
+                <span id="positiveRatio"></span>
+            </p>
+
+            <p>
+                Negative:
+                <span id="negativeRatio"></span>
+            </p>
+
+            <div id="models"></div>
+
+        </section>
+
+        <p id="error"></p>
+
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

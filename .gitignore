@@ -1,0 +1,18 @@
+.venv/
+.idea/
+__pycache__/
+*.py[cod]
+.env
+
+# Model checkpoints
+*.pth
+*.pt
+*.pkl
+*.joblib
+*.safetensors
+*.onnx
+
+# Dataset
+data/raw/
+data/processed/
+data/IMDB Dataset.csv
