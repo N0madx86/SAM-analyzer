@@ -16,3 +16,4 @@ __pycache__/
 data/raw/
 data/processed/
 data/IMDB Dataset.csv
+data/sample_sentiment.csv
